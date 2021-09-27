@@ -8,6 +8,7 @@ const Details = () => {
     const [cart, setCart] = useState([]);
 
 
+
     // load data
     useEffect(()=> {
         fetch('./books.JSON')

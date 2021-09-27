@@ -11,7 +11,7 @@ const Header = () => {
             <img src = {logo} alt='Book Logo' className = 'logo'/>
             <h3>The more you read the more you learn!</h3>
             <h3>Choose your best book from best collection</h3>
-            <h4>Within $100</h4>
+            <h4>Within $2000 and 10 writers</h4>
             <div className = 'menu'>
             <a href = '#'>Best Books</a>
             <a href = '#'>Best Writers</a>

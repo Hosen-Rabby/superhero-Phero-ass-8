@@ -8,16 +8,42 @@
     padding: 20px;
     border-radius: 10px;
     height: auto;
-    background: #f5f6fa;
+    background: #dfe6e9;
+    box-shadow: 0px 0px 9px -2px rgba(255,255,255,0.75);
+    transition: .5s;
+
 }
+
+.item:hover{
+    box-shadow: 7px 7px 6px -5px rgba(99,110,114,0.75);
+    transform: scale(1.1);
+}
+
 .item img{
     width: 70%;
     height: 30%;
 }
 
 .item button{
-    background: yellow;
-    padding: 10px 15px;
+    background: #b2bec3;
+    padding: 10px 35px;
     border: 1px solid #000;
     cursor: pointer;
+    border-radius: 20px;
+    transition: .5s;
+}
+
+.item button:hover{
+    color: #000;
+    background: #fff;
+    transform: scale(1.1);
+    border:#fff;
+}
+
+/* icons */
+.icons{
+    margin-top: 20px;
+}
+.icons i{
+    margin-right: 10px;
 }
