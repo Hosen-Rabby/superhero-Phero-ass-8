@@ -2,7 +2,7 @@ import React from 'react';
 import './Cart.css';
 
 const Cart = (props) => {
-    // console.log(props)
+    console.log(props.cart)
     // console.log(props.cart[0].key)
     // const author = props.cart[0].key;
     const { cart } = props;
@@ -13,11 +13,12 @@ const Cart = (props) => {
     }
 
     return (
-        <div>
+        <div className = 'cart'>
             <h3>Select : {props.cart.length}</h3>
             <h3>Total : {total}</h3>
-            <p>Total Author:</p>
-            {/* <p>{author}</p> */}
+            <h2>Selected Author:</h2>
+            {cart.map(person => <p>{person.author}</p>)}
+            
         </div>
     );
 };

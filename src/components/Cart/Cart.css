@@ -1,0 +1,5 @@
+.cart p{
+    border: 1px solid red;
+    width: 120px;
+    margin: 5px auto;
+}

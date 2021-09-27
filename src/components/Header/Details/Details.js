@@ -23,6 +23,9 @@ const Details = () => {
 
     return (
         <div className = 'details'>
+        <div className = 'cartDetails'>
+            <Cart cart = {cart}></Cart>
+        </div>
             <div className = 'bookDetails'>
                 {
                     books.map(book => <Book 
@@ -31,9 +34,6 @@ const Details = () => {
                         addToCart = {addToCart}
                     ></Book>)
                 }
-            </div>
-            <div className = 'cartDetails'>
-                <Cart cart = {cart}></Cart>
             </div>
         </div>
     );

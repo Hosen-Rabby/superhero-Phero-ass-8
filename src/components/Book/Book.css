@@ -7,8 +7,17 @@
     background: #ffffff;
     padding: 20px;
     border-radius: 10px;
+    height: auto;
+    background: #f5f6fa;
 }
 .item img{
     width: 70%;
-    height: 50%;
+    height: 30%;
+}
+
+.item button{
+    background: yellow;
+    padding: 10px 15px;
+    border: 1px solid #000;
+    cursor: pointer;
 }
